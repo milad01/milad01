@@ -3,18 +3,16 @@ do
 
 function run(msg, matches)
   return [[ 
-Umbrella-Cp Telegram Bot v1.0 
+WORLDTEAM WORLD Bot v9
  
- Team Channel : @CopierTeam
- Owner : @Amir_h
+ Team Channel : https://telegram.me/joinchat/C9R_Yz6n71KH2zbWzK2cJg
+ Owner : @IM_FAST_TYPER_KABOOS
  
  Powered by:
- #CopierTeam
+ #ASHI_KING_KABOOS
  
  Special Thanks:
-Allen
-Reza
-SeedTeam
+Beat Bot Team
  and more...]]
 end
 
