@@ -17,7 +17,7 @@ local function callback_reply(extra, success, result)
 		userrank = "Moderator ⭐"
 		send_document(org_chat_id,"./icons/4.webp", ok_cb, false)
 	elseif tonumber(result.from.id) == tonumber(our_id) then
-		userrank = "Umbrella ⭐⭐⭐⭐⭐⭐"
+		userrank = "WORLD ⭐⭐⭐⭐⭐⭐"
 		send_document(org_chat_id,"./icons/9.webp", ok_cb, false)
 	elseif result.from.username then
 		if string.sub(result.from.username:lower(), -3) == "bot" then
@@ -191,7 +191,7 @@ local function callback_res(extra, success, result)
 		userrank = "Moderator ⭐"
 		send_document(org_chat_id,"./icons/4.webp", ok_cb, false)
 	elseif tonumber(result.id) == tonumber(our_id) then
-		userrank = "Umbrella ⭐⭐⭐⭐⭐⭐"
+		userrank = "WORLD ⭐⭐⭐⭐⭐⭐"
 		send_document(org_chat_id,"./icons/9.webp", ok_cb, false)
 	elseif string.sub(result.username:lower(), -3) == 'bot' then
 		userrank = "API Bot"
