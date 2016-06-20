@@ -234,30 +234,18 @@ function create_config( )
     },
     sudo_users = {110626080,103649648,111020322,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v4
+    about_text = [[WORLD BOT v9
 An advanced administration bot based on TG-CLI written in Lua
 
-https://github.com/SEEDTEAM/TeleSeed
+Special thanks to ALL
 
-Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@POTUS [Developer]
-@seyedan25 [Manager]
-@aRandomStranger [Admin]
-
-Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
+#SUDO: @ASHI_KING_KABOOS
 
 Our channels
-@teleseedch [English]
-@iranseed [persian]
+https://telegram.me/joinchat/C9R_Yz6n71KH2zbWzK2cJg [persian]
 
 Our website 
-http://teleseed.seedteam.org/
+http://worldbot.ir/
 ]],
     help_text_realm = [[
 Realm Commands:
